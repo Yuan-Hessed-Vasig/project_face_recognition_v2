@@ -97,6 +97,19 @@ class StudentsPanel:
             self.student_cards[student_id].destroy()
             del self.student_cards[student_id]
 
+    def update_student_card(self, name, is_present):
+        """Update student card status"""
+        # Find the student card by name
+        for student_id, card in self.student_cards.items():
+            # Check if this card belongs to the student
+            if hasattr(card, 'student_name') and card.student_name == name:
+                # Update the card appearance based on presence
+                if is_present:
+                    card.configure(fg_color=("lightgreen", "darkgreen"))
+                else:
+                    card.configure(fg_color=("gray92", "gray12"))
+                break
+    
     def clear_all_cards(self):
         for card in self.student_cards.values():
             card.destroy()

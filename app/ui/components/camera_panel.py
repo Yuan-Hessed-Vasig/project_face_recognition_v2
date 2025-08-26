@@ -50,6 +50,11 @@ class CameraPanel:
 
         # Show initial grey background
         self.show_grey_background()
+    
+    def camera_ready(self):
+        """Called when camera is ready"""
+        self.show_loading(False)  # Hide loading message
+        self.camera_visible = True
 
     def update_frame(self, frame):
         if frame is not None:
