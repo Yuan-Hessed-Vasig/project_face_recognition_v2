@@ -1,6 +1,7 @@
 # Development dependencies for hot reload functionality
 watchdog>=3.0.0
 psutil>=5.9.0
+bcrypt>=4.0.0
 
 # Database dependencies for XAMPP MySQL integration
 mysql-connector-python>=8.0.0
