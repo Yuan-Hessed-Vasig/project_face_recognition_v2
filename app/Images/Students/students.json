@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "student_id": "20240143-E",
+    "name": "Yuan",
+    "course": "BSCPE",
+    "year": "1",
+    "section": "1A",
+    "image": "./Images/Students/Yuan/*.jpg"
+  },
+  {
+    "id": 2,
+    "student_id": "20240144-E",
+    "name": "Hannah",
+    "course": "BSCPE",
+    "year": "1",
+    "section": "1A",
+    "image": "./Images/Students/Hannah/*.jpg"
+  },
+  {
+    "id": 3,
+    "student_id": "20240145-E",
+    "name": "Jalilah",
+    "course": "BSCPE",
+    "year": "1",
+    "section": "1A",
+    "image": "./Images/Students/Jalilah/*.jpg"
+  },
+  {
+    "id": 4,
+    "student_id": "20240146-E",
+    "name": "Maam Sayo",
+    "course": "BSCPE",
+    "year": "1",
+    "section": "1A",
+    "image": "./Images/Students/Maam Sayo/*.jpg"
+  },
+  {
+    "id": 5,
+    "student_id": "20240086-E",
+    "name": "Monoy",
+    "course": "BSCPE",
+    "year": "1",
+    "section": "1A",
+    "image": "./Images/Students/Monoy/*.jpg"
+  },
+  {
+    "id": 6,
+    "student_id": "20240148-E",
+    "name": "Palmes",
+    "course": "BSCPE",
+    "year": "1",
+    "section": "1A",
+    "image": "./Images/Students/Palmes/*.jpg"
+  }
+]
